@@ -11,7 +11,7 @@ body {
     height: 100%;
 }
 
-/* site fora desses numeros quebra*/
+/* site fora desses numeros quebra aoc 1366x768 samsung 1024x768*/
 body,
 html {
     min-width: 320px;
@@ -24,7 +24,7 @@ html {
     z-index: 1;
 }
 
-nav,
+
 #topo {
     border: 1px solid;
     padding: 8px;
@@ -70,23 +70,23 @@ aside {
     width: 200px;
 }
 
-nav,
 #lateral {
     display: block;
     padding: 8px;
+    background-color: teal;
+    top: 48px;
+    position: fixed;
+    height: 100%;
+    left: 0 auto;
+    z-index: 1;
 }
 
 #lateral>li {
     padding: 8px;
+    margin: 8px;
+    width: 110px;
 }
 
-#lateral {
-    position: fixed;
-    width: 200px;
-    height: 100%;
-    left: 0;
-    top: 48px;
-}
 
 /* Configuração padrão da página
 		-------------------------------*/
@@ -132,29 +132,39 @@ p {
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
+
+    && img {
+        width: 100%;  
+    }
 }
 
 .caixa1 {
+    
     background-image: url('img/imagem1.jpg');
 }
 
 .caixa2 {
+    
     background-image: url('img/imagem2.jpg');
 }
 
 .caixa3 {
+   
     background-image: url('img/imagem3.jpg');
 }
 
 .caixa4 {
+    
     background-image: url('img/imagem4.jpg');
 }
 
 .caixa5 {
+    
     background-image: url('img/imagem5.jpg');
 }
 
 .caixa6 {
+    
     background-image: url('img/imagem6.jpg');
 }
 
